@@ -1,0 +1,4 @@
+/home/larisa/PAOO/PAOO/LibraryManager/build/CMakeFiles/library_lib.dir
+/home/larisa/PAOO/PAOO/LibraryManager/build/CMakeFiles/library_app.dir
+/home/larisa/PAOO/PAOO/LibraryManager/build/CMakeFiles/edit_cache.dir
+/home/larisa/PAOO/PAOO/LibraryManager/build/CMakeFiles/rebuild_cache.dir

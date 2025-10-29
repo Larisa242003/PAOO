@@ -24,4 +24,7 @@ public:
     void setTitle(const char* newTitle);
 
     void print() const;
+
+    Book& operator=(const Book& other);
+
 };
