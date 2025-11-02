@@ -3,7 +3,7 @@
 
 Book::Book(const char* t, const char* a, int y): title(nullptr), author(nullptr), year(y)
 {
-    std::cout << "[Book ctor] Creating book: " << t << "\n";
+    std::cout << "[Book constructor] Creating book: " << t << "\n";
 
     title = new char[strlen(t) + 1]; 
     strcpy(title, t);
@@ -14,14 +14,14 @@ Book::Book(const char* t, const char* a, int y): title(nullptr), author(nullptr)
 
 Book::~Book() 
 {
-    std::cout << "[Book dtor] Deleting book: " << (title ? title : "null") << "\n";
+    std::cout << "[Book destructor] Deleting book: " << (title ? title : "null") << "\n";
     delete[] title;
     delete[] author;
 }
 
 Book::Book(const Book& other) : year(other.year)
 {
-    std::cout << "[Book copy ctor] Copying book: " << other.title << "\n";
+    std::cout << "[Book copy constructor] Copying book: " << other.title << "\n";
 
     title = new char[strlen(other.title) + 1];
     strcpy(title, other.title);
@@ -33,7 +33,7 @@ Book::Book(const Book& other) : year(other.year)
 
 Book::Book(Book&& other) noexcept : title(other.title), author(other.author), year(other.year)
 {
-    std::cout << "[Book move ctor] Moving book: " << (other.title ? other.title : "null") << "\n";
+    std::cout << "[Book move constructor] Moving book: " << (other.title ? other.title : "null") << "\n";
     other.title = nullptr;
     other.author = nullptr;
     other.year = 0;
