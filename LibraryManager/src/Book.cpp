@@ -62,7 +62,8 @@ void Book::setTitle(const char* newTitle)
     strcpy(title, newTitle);
 }
 
-void Book::print() const {
+void Book::print() const 
+{
     std::cout << "Book: " << title << " by " << author << " (" << year << ")\n";
 }
 
@@ -71,7 +72,7 @@ Book& Book::operator=(const Book& other) {
               << (other.title ? other.title : "null") << "\n";
 
     if (this == &other)
-        return *this; // protecție la auto-atribuire
+        return *this; 
 
     delete[] title;
     delete[] author;
