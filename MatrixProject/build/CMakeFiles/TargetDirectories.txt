@@ -1,0 +1,3 @@
+/home/larisa/PAOO/PAOO/MatrixProject/build/CMakeFiles/MatrixProject.dir
+/home/larisa/PAOO/PAOO/MatrixProject/build/CMakeFiles/edit_cache.dir
+/home/larisa/PAOO/PAOO/MatrixProject/build/CMakeFiles/rebuild_cache.dir
