@@ -19,9 +19,12 @@ public:
     ~Matrix();
 
     double& at(int r, int c);
+
     const double& at(int r, int c) const;
 
     int getRows() const { return rows; }
+
     int getCols() const { return cols; }
+    
     void print() const;
 };
