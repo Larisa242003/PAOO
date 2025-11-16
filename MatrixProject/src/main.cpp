@@ -52,6 +52,12 @@ int main()
     Matrix X(2,2), Y(2,2), Z(2,2);
 
     X.at(0,0)=1; Y.at(0,0)=2; Z.at(0,0)=3;
+    X.print();
+    std::cout<<"\n";
+    Y.print();
+    std::cout<<"\n";
+    Z.print();
+    std::cout<<"\n";
 
     X = Y = Z;  
 

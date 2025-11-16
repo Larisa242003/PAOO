@@ -2,7 +2,8 @@
 #include <algorithm>
 #include <iostream>
 
-class Matrix {
+class Matrix 
+{
 private:
     int rows;
     int cols;
