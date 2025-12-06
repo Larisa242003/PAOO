@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/larisa/PAOO/PAOO/TextEditor/src/AutoSaveFile.cpp" "CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o" "gcc" "CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o.d"
+  "/home/larisa/PAOO/PAOO/TextEditor/src/EditorBase.cpp" "CMakeFiles/text_editor.dir/src/EditorBase.cpp.o" "gcc" "CMakeFiles/text_editor.dir/src/EditorBase.cpp.o.d"
   "/home/larisa/PAOO/PAOO/TextEditor/src/SharedDocument.cpp" "CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o" "gcc" "CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o.d"
   "/home/larisa/PAOO/PAOO/TextEditor/src/TextBuffer.cpp" "CMakeFiles/text_editor.dir/src/TextBuffer.cpp.o" "gcc" "CMakeFiles/text_editor.dir/src/TextBuffer.cpp.o.d"
   "/home/larisa/PAOO/PAOO/TextEditor/src/TextEditor.cpp" "CMakeFiles/text_editor.dir/src/TextEditor.cpp.o" "gcc" "CMakeFiles/text_editor.dir/src/TextEditor.cpp.o.d"

@@ -100,10 +100,24 @@ CMakeFiles/text_editor.dir/src/TextBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/text_editor.dir/src/TextBuffer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/larisa/PAOO/PAOO/TextEditor/src/TextBuffer.cpp -o CMakeFiles/text_editor.dir/src/TextBuffer.cpp.s
 
+CMakeFiles/text_editor.dir/src/EditorBase.cpp.o: CMakeFiles/text_editor.dir/flags.make
+CMakeFiles/text_editor.dir/src/EditorBase.cpp.o: /home/larisa/PAOO/PAOO/TextEditor/src/EditorBase.cpp
+CMakeFiles/text_editor.dir/src/EditorBase.cpp.o: CMakeFiles/text_editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/text_editor.dir/src/EditorBase.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_editor.dir/src/EditorBase.cpp.o -MF CMakeFiles/text_editor.dir/src/EditorBase.cpp.o.d -o CMakeFiles/text_editor.dir/src/EditorBase.cpp.o -c /home/larisa/PAOO/PAOO/TextEditor/src/EditorBase.cpp
+
+CMakeFiles/text_editor.dir/src/EditorBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/text_editor.dir/src/EditorBase.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/larisa/PAOO/PAOO/TextEditor/src/EditorBase.cpp > CMakeFiles/text_editor.dir/src/EditorBase.cpp.i
+
+CMakeFiles/text_editor.dir/src/EditorBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/text_editor.dir/src/EditorBase.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/larisa/PAOO/PAOO/TextEditor/src/EditorBase.cpp -o CMakeFiles/text_editor.dir/src/EditorBase.cpp.s
+
 CMakeFiles/text_editor.dir/src/TextEditor.cpp.o: CMakeFiles/text_editor.dir/flags.make
 CMakeFiles/text_editor.dir/src/TextEditor.cpp.o: /home/larisa/PAOO/PAOO/TextEditor/src/TextEditor.cpp
 CMakeFiles/text_editor.dir/src/TextEditor.cpp.o: CMakeFiles/text_editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/text_editor.dir/src/TextEditor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/text_editor.dir/src/TextEditor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_editor.dir/src/TextEditor.cpp.o -MF CMakeFiles/text_editor.dir/src/TextEditor.cpp.o.d -o CMakeFiles/text_editor.dir/src/TextEditor.cpp.o -c /home/larisa/PAOO/PAOO/TextEditor/src/TextEditor.cpp
 
 CMakeFiles/text_editor.dir/src/TextEditor.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/text_editor.dir/src/TextEditor.cpp.s: cmake_force
 CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o: CMakeFiles/text_editor.dir/flags.make
 CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o: /home/larisa/PAOO/PAOO/TextEditor/src/AutoSaveFile.cpp
 CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o: CMakeFiles/text_editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o -MF CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o.d -o CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o -c /home/larisa/PAOO/PAOO/TextEditor/src/AutoSaveFile.cpp
 
 CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.s: cmake_force
 CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o: CMakeFiles/text_editor.dir/flags.make
 CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o: /home/larisa/PAOO/PAOO/TextEditor/src/SharedDocument.cpp
 CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o: CMakeFiles/text_editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o -MF CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o.d -o CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o -c /home/larisa/PAOO/PAOO/TextEditor/src/SharedDocument.cpp
 
 CMakeFiles/text_editor.dir/src/SharedDocument.cpp.i: cmake_force
@@ -146,6 +160,7 @@ CMakeFiles/text_editor.dir/src/SharedDocument.cpp.s: cmake_force
 text_editor_OBJECTS = \
 "CMakeFiles/text_editor.dir/src/main.cpp.o" \
 "CMakeFiles/text_editor.dir/src/TextBuffer.cpp.o" \
+"CMakeFiles/text_editor.dir/src/EditorBase.cpp.o" \
 "CMakeFiles/text_editor.dir/src/TextEditor.cpp.o" \
 "CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o" \
 "CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o"
@@ -155,12 +170,13 @@ text_editor_EXTERNAL_OBJECTS =
 
 text_editor: CMakeFiles/text_editor.dir/src/main.cpp.o
 text_editor: CMakeFiles/text_editor.dir/src/TextBuffer.cpp.o
+text_editor: CMakeFiles/text_editor.dir/src/EditorBase.cpp.o
 text_editor: CMakeFiles/text_editor.dir/src/TextEditor.cpp.o
 text_editor: CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o
 text_editor: CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o
 text_editor: CMakeFiles/text_editor.dir/build.make
 text_editor: CMakeFiles/text_editor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable text_editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable text_editor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/text_editor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

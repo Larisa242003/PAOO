@@ -5,7 +5,8 @@
 #include "AutoSaveFile.h"
 #include "SharedDocument.h"
 
-int main() {
+int main() 
+{
     std::cout << "=== EDITOR DE TEXT SIMPLU ===\n\n";
 
     // =======================
@@ -19,12 +20,12 @@ int main() {
         editor1.display();
 
         std::cout << "\n-- Copiere prin copy constructor (editor2 = editor1) --\n";
-        TextEditor editor2 = editor1;  // copy ctor
+        TextEditor editor2 = editor1; 
         editor2.display();
 
         std::cout << "\n-- Copiere prin assignment (editor3 = editor1) --\n";
         TextEditor editor3("alt_document.txt");
-        editor3 = editor1;            // operator=
+        editor3 = editor1;       
         editor3.display();
     }
 
@@ -50,8 +51,7 @@ int main() {
     // ===========================================
     std::cout << "--- Item 14: Document partajat (reference counting) ---\n";
     {
-        auto doc = std::make_shared<Document>("Raport.txt",
-                                              "Titlu: Raport Anual\n\n");
+        auto doc = std::make_shared<Document>("Raport.txt","Titlu: Raport Anual\n\n");
 
         std::cout << "\n-- User1 deschide documentul --\n";
         SharedDocument user1(doc);

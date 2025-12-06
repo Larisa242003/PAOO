@@ -167,6 +167,7 @@ CMakeFiles/text_editor.dir/src/main.cpp.o: \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
  /home/larisa/PAOO/PAOO/TextEditor/src/TextEditor.h \
+ /home/larisa/PAOO/PAOO/TextEditor/src/EditorBase.h \
  /home/larisa/PAOO/PAOO/TextEditor/src/TextBuffer.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \

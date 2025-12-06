@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o"
   "CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.o.d"
+  "CMakeFiles/text_editor.dir/src/EditorBase.cpp.o"
+  "CMakeFiles/text_editor.dir/src/EditorBase.cpp.o.d"
   "CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o"
   "CMakeFiles/text_editor.dir/src/SharedDocument.cpp.o.d"
   "CMakeFiles/text_editor.dir/src/TextBuffer.cpp.o"

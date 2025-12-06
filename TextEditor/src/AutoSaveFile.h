@@ -5,7 +5,9 @@
 
 // Item 13: RAII - salvează automat la distrugere
 // Item 14: Copiere interzisă (pentru siguranța resursei)
-class AutoSaveFile {
+
+class AutoSaveFile 
+{
 public:
     AutoSaveFile(const std::string& filename, const std::string& content);
     ~AutoSaveFile();
@@ -14,11 +16,11 @@ public:
     AutoSaveFile& operator=(const AutoSaveFile&) = delete;
 
     void updateContent(const std::string& newContent);
-    std::string getFilename() const { return filename_; }
+    std::string getFilename() const { return filename; }
 
 private:
-    std::string filename_;
-    std::string content_;
+    std::string filename;
+    std::string content;
 };
 
-#endif // AUTO_SAVE_FILE_H
+#endif 

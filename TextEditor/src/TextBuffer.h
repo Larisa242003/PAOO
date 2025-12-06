@@ -6,7 +6,8 @@
 #include <string>
 
 // Buffer simplu pentru text (gestionează dinamic conținutul)
-class TextBuffer {
+class TextBuffer 
+{
 public:
     TextBuffer(const std::string& initialText = "");
     ~TextBuffer();
@@ -21,8 +22,8 @@ public:
     void append(const std::string& text);
 
 private:
-    std::vector<char> buffer_; // conține și '\0' la final
-    size_t size_;              // nr. de caractere fără '\0'
+    std::vector<char> buffer; // conține și '\0' la final
+    size_t size;              // nr. de caractere fără '\0'
 };
 
 #endif // TEXT_BUFFER_H

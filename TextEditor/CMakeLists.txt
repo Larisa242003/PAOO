@@ -9,6 +9,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(text_editor
     src/main.cpp
     src/TextBuffer.cpp
+    src/EditorBase.cpp
     src/TextEditor.cpp
     src/AutoSaveFile.cpp
     src/SharedDocument.cpp

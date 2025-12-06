@@ -153,6 +153,30 @@ src/AutoSaveFile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/src/AutoSaveFile.cpp.s
 .PHONY : src/AutoSaveFile.cpp.s
 
+src/EditorBase.o: src/EditorBase.cpp.o
+.PHONY : src/EditorBase.o
+
+# target to build an object file
+src/EditorBase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/src/EditorBase.cpp.o
+.PHONY : src/EditorBase.cpp.o
+
+src/EditorBase.i: src/EditorBase.cpp.i
+.PHONY : src/EditorBase.i
+
+# target to preprocess a source file
+src/EditorBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/src/EditorBase.cpp.i
+.PHONY : src/EditorBase.cpp.i
+
+src/EditorBase.s: src/EditorBase.cpp.s
+.PHONY : src/EditorBase.s
+
+# target to generate assembly for a file
+src/EditorBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/src/EditorBase.cpp.s
+.PHONY : src/EditorBase.cpp.s
+
 src/SharedDocument.o: src/SharedDocument.cpp.o
 .PHONY : src/SharedDocument.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... src/AutoSaveFile.o"
 	@echo "... src/AutoSaveFile.i"
 	@echo "... src/AutoSaveFile.s"
+	@echo "... src/EditorBase.o"
+	@echo "... src/EditorBase.i"
+	@echo "... src/EditorBase.s"
 	@echo "... src/SharedDocument.o"
 	@echo "... src/SharedDocument.i"
 	@echo "... src/SharedDocument.s"

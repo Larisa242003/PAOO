@@ -1,14 +1,17 @@
 #ifndef TEXT_EDITOR_H
 #define TEXT_EDITOR_H
 
+#include "EditorBase.h"
 #include "TextBuffer.h"
 #include <string>
 
-// Item 12: TextEditor conține TextBuffer + metadata
-// -> Copy ctor și operator= trebuie să copieze TOATE părțile
-class TextEditor {
+// Item 12 + moștenire:
+// TextEditor DERIVĂ din EditorBase și conține TextBuffer ca membru.
+
+class TextEditor : public EditorBase 
+{
 public:
-    TextEditor(const std::string& filename);
+    explicit TextEditor(const std::string& filename);
 
     TextEditor(const TextEditor& other);
     TextEditor& operator=(const TextEditor& other);
@@ -17,13 +20,14 @@ public:
     void append(const std::string& text);
     void display() const;
 
-    bool isModified() const { return modified_; }
-    std::string getFilename() const { return filename_; }
+    bool isModified() const { return modified; }
+    
+    // folosim filename moștenit din EditorBase
+    std::string getFilename() const { return filename; }
 
 private:
-    TextBuffer  buffer_;   // obiect-membru (resursa de text)
-    std::string filename_; // numele fișierului
-    bool        modified_; // stare
+    TextBuffer buffer; // obiect-membru (resursa de text)
+    bool       modified;
 };
 
 #endif // TEXT_EDITOR_H

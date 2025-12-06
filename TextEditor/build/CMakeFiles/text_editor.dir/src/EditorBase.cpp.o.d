@@ -1,7 +1,6 @@
-CMakeFiles/text_editor.dir/src/TextEditor.cpp.o: \
- /home/larisa/PAOO/PAOO/TextEditor/src/TextEditor.cpp \
+CMakeFiles/text_editor.dir/src/EditorBase.cpp.o: \
+ /home/larisa/PAOO/PAOO/TextEditor/src/EditorBase.cpp \
  /usr/include/stdc-predef.h \
- /home/larisa/PAOO/PAOO/TextEditor/src/TextEditor.h \
  /home/larisa/PAOO/PAOO/TextEditor/src/EditorBase.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -151,9 +150,4 @@ CMakeFiles/text_editor.dir/src/TextEditor.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /home/larisa/PAOO/PAOO/TextEditor/src/TextBuffer.h \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc
+ /usr/include/c++/11/bits/istream.tcc

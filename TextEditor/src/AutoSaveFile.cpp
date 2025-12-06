@@ -2,28 +2,32 @@
 #include <iostream>
 #include <fstream>
 
-AutoSaveFile::AutoSaveFile(const std::string& filename, const std::string& content)
-    : filename_(filename),
-      content_(content)
+AutoSaveFile::AutoSaveFile(const std::string& filename, const std::string& content) : filename(filename),content(content)
 {
-    std::cout << "[AutoSaveFile ctor] Pregătit pentru salvare: '" 
-              << filename_ << "'\n";
+    std::cout << "[AutoSaveFile constructor] Pregătit pentru salvare: '" << filename << "'\n";
 }
 
-AutoSaveFile::~AutoSaveFile() {
-    std::cout << "[AutoSaveFile dtor] Salvez automat '" << filename_ << "'...\n";
 
-    std::ofstream file(filename_);
-    if (file.is_open()) {
-        file << content_;
+AutoSaveFile::~AutoSaveFile() 
+{
+    std::cout << "[AutoSaveFile dtor] Salvez automat '" << filename << "'...\n";
+
+    std::ofstream file(filename);
+    if (file.is_open()) 
+    {
+        file << content;
         file.close();
         std::cout << "[AutoSaveFile] ✓ Salvat cu succes!\n";
-    } else {
+    } 
+    else 
+    {
         std::cout << "[AutoSaveFile] ✗ Eroare la salvare!\n";
     }
 }
 
-void AutoSaveFile::updateContent(const std::string& newContent) {
-    content_ = newContent;
+
+void AutoSaveFile::updateContent(const std::string& newContent) 
+{
+    content = newContent;
     std::cout << "[AutoSaveFile::updateContent] Conținut actualizat\n";
 }

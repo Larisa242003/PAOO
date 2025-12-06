@@ -6,7 +6,8 @@
 #include <iostream>
 
 // Document simplu partajat între mai mulți utilizatori
-class Document {
+class Document 
+{
 public:
     Document(const std::string& name, const std::string& content);
     ~Document();
@@ -14,15 +15,18 @@ public:
     void addLine(const std::string& line);
     void display() const;
 
-    std::string getName() const { return name_; }
+    std::string getName() const { return name; }
 
 private:
-    std::string name_;
-    std::string content_;
+    std::string name;
+    std::string content;
 };
 
+
+
 // Ambalaj RAII + copying behavior clar: shared_ptr pentru ownership partajat
-class SharedDocument {
+class SharedDocument 
+{
 public:
     explicit SharedDocument(std::shared_ptr<Document> doc);
 
@@ -33,7 +37,7 @@ public:
     void printInfo(const std::string& userName) const;
 
 private:
-    std::shared_ptr<Document> doc_;
+    std::shared_ptr<Document> doc;
 };
 
-#endif // SHARED_DOCUMENT_H
+#endif 
