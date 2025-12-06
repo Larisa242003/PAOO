@@ -1,0 +1,3 @@
+/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles/text_editor.dir
+/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles/edit_cache.dir
+/home/larisa/PAOO/PAOO/TextEditor/build/CMakeFiles/rebuild_cache.dir
